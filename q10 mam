@@ -1,0 +1,17 @@
+INP
+SNA
+STA A
+SNA
+BUN INPUT
+BUN OUTPUT
+INPUT: INP
+       SNA
+       BUN ADDITION
+       BUN OUTPUT
+ADDITION: ADD A
+     STA A
+     BUN INPUT
+OUTPUT: LDA A
+        OUT
+        HLT
+A: .data1 0

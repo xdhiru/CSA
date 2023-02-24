@@ -1,0 +1,12 @@
+JUMP: INP
+SNA
+ADD A
+SNA
+STA A
+SNA
+BUN JUMP
+LDA A
+OUT
+HLT
+A: .data1 0
+
